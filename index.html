@@ -1,75 +1,55 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalcuGator</title>
-    
-    
-    
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
-    <!--  
-Image from Daron Parton http://watermarkltd.com/artists/daron-parton
--->
+    <!--
+    Image from Daron Parton http://watermarkltd.com/artists/daron-parton
+    -->
 
-<div class = "background">
-<div class= "whole">
-  <div class = "text">
-<span class = "words"></span>  
-    <br> </div>
+    <div class="background">
+      <div class="whole">
+        <div class="text">
+          <span class="words"></span>
+        </div>
 
-  <row>
-    <button class = "mid">AC</button>
-    <button class = "mid">CE</button>
-    <button>/</button>
-  </row>
-  <br>
-  <row>
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>x</button>
-    
-  </row>
-    <br>
-  <row>
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>-</button>
-  </row>
-    <br>
-  <row>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>+</button>
-  </row>
-    <br>
-  <row>
-    <button>0</button>
-    <button>.</button>
-    <button class= "long">=</button>
-  </row>
-  </div>
-</div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+        <div class="button-row">
+          <button data-value="AC" class="mid">AC</button>
+          <button data-value="CE" class="mid">CE</button>
+          <button data-value="/">/</button>
+        </div>
+        <div class="button-row">
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button data-value="*">x</button>
+        </div>
+        <div class="button-row">
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button data-value="-">-</button>
+        </div>
+        <div class="button-row">
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button data-value="+">+</button>
+        </div>
+        <div class="button-row">
+          <button data-value="0">0</button>
+          <button data-value=".">.</button>
+          <button data-value="=" class="long">=</button>
+        </div>
+      </div>
+    </div>
 
-        <script src="js/index.js"></script>
-
-    
-    
-    
+    <script src="js/index.js"></script>
   </body>
 </html>
